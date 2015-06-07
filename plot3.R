@@ -45,10 +45,12 @@ with( electricPowerConsumption, {
             type = "l",
             xlab = "",
             ylab = "Energy sub metering" )
+      # Add the red line for sub-metering 2
       points( dateTime,
               Sub_metering_2,
               type = "l",
               col = "red" )
+      # Add the blue line for sub-metering 3
       points( dateTime,
               Sub_metering_3,
               type = "l",

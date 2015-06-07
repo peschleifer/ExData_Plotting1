@@ -41,7 +41,7 @@ png( filename="plot4.png", width=480, height=480 )
 # Specify 2x2 plots, row-wise
 par( mfrow = c(2,2) )
 
-# Generate the plot
+# Generate the plots
 with( electricPowerConsumption, {
     
     plot( dateTime,
